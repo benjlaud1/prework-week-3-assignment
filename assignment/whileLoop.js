@@ -5,4 +5,12 @@ function fillCrate( maxCapacity ){
   var widgets = 0;
   // write a while loop that puts more widgets in the crate until it is full
   // return the number of widgets added to the crate in the while loop
+  while (maxCapacity > widgets) {
+    widgets++;
+  }
+  return widgets;
 } // end fillCrate
+
+var crateMax = 20;
+
+console.log(fillCrate(crateMax),'widgets were added to this crate.');
