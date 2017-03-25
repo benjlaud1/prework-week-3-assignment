@@ -5,7 +5,7 @@ var andTruthTable = [true  && true,
 
 // in the array 'andTruthtable', how many elements are true?
 // uncomment the next line and replace ___ with the appropriate value
-var numberOfTrueElements = 2;
+var numberOfTrueElements = 1;
 
 
 
@@ -16,7 +16,7 @@ var orTruthTable = [true  || true,
 
 // in the array 'orTruthTable', how many elements are false?
 // uncomment the next line and replace ___ with the appropriate value
-var numberOfFalseElements = 3;
+var numberOfFalseElements = 1;
 
 
 function opposite(booleanValue) {

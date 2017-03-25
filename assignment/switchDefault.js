@@ -3,15 +3,24 @@ function checkDay( today ){
   // DAYS MUST BE IN ALL lowercase LETTERS AND FULL NAMES
   // ex: 'wednesday', not 'Wednesday' or 'wed'
   // return true if it is the weekend, false if not
+  var isTrue;
   switch (today) {
     case 'saturday':
-      return true;
+      isTrue = true;
+      break;
     case 'sunday':
-      return true;
+      isTrue = true;
+      break;
     default:
-      return false;
+      isTrue = false;
+      break;
   }
+  return isTrue;
 } // end checkDay
 
 console.log(checkDay('saturday'));
 console.log(checkDay('monday'));
+
+
+var printOut = onlyEvens(numbers);
+console.log(printOut);

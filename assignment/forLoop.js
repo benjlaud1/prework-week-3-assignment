@@ -8,6 +8,7 @@ function shoesOnTheBus( ArrayOfKidsOnBus ){
     totalShoes += 2;
     console.log('Nice shoes', ArrayOfKidsOnBus[i] + '!');
   }
+  return totalShoes;
 } // end shoesOnTheBus
 
 var kidsOnTheBus = ['Victoria', 'Ottoleigh', 'Cayla', 'Ben'];
